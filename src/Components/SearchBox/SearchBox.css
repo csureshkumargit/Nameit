@@ -1,0 +1,27 @@
+.SearchBox-Container{
+    display: flex;
+    align-items: center;
+    margin:10px ;
+    margin-left: 550px;
+}
+
+.searchtext{
+    font-size:15px;
+    width:250px;
+    border-radius: 50px;
+    margin-left:70px;
+    box-shadow: 0 0 5px hsl(0deg 0% 100% / 50%);
+    background: #a592f2;
+    height: 25px;
+    
+    
+}
+
+.searchtext::placeholder{
+    color: #e7e9f0;
+}
+
+.searchtext:focus{
+    outline: none;
+}
+
